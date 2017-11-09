@@ -1,4 +1,10 @@
 import { combineReducers } from 'redux'
+/*
+  reducer 为整个应用的module层   提供数据和操作数据的方法
+
+  由于复杂的应用可能有多个reducer  combineReducers 用来合并他们 
+  
+*/ 
 
 let initialStgate=[{
   id: -1,
