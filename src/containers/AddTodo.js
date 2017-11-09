@@ -49,14 +49,9 @@ export default AddTodo = connect()(AddTodo);
 
   原因是因为connect函数内部的逻辑为 如果不传 mapStateToProps 就让该组件的props属性指向store.dispatch 从而在组件内部获取操作store的权限
 
-  而且可操作的是整个合并后的整个store
+  而且可操作的是整个合并后的整个store 即reducer中 同过combineReducers合并的store
 
 */ 
-
-
-
-
-
 
 
 
